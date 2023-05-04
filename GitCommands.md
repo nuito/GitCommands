@@ -37,6 +37,10 @@
     - ブランチ名の前に-Cをオプションでつけると、新規作成後切り替えることが可能
 
 ### GitHubとの連携
+- 新規リポジトリにプッシュする
+  - git remote add origin git@github.com:[アカウント]/[リポジトリ].git
+  - git push origin master
+    - origin と master はそのときどきで違うことも。
 - リモートリポジトリからローカルリポジトリにクローンする
   - git clone git@github.com:[リポジトリ].git
 - リモートリポジトリの設定を確認
